@@ -1,16 +1,21 @@
 public class Player{
-  private int Wins = 0;
-  private int Losses = 0;
-  public tallyWins(){
-    Wins++;
+  private int points = 0;
+  private int losses = 0;
+  private int wins = 0;
+  private String playerName;
+  public Player(String name){
+    playerName = name;
   }
-  public tallyLosses(){
-    Losses++;
+  public setPoints(int roll){
+    points+=roll;
   }
-  public int getWins(){
-    return Wins;
+  public int getPoints(){
+    return points;
   }
-  public int getLosses(){
-    return Losses;
+  public lost(){
+    losses++;
+  }
+  public won(){
+    wins++;
   }
 }
