@@ -26,5 +26,6 @@ public class Player{
     result+="Player: "+  playerName;
     result+="Wins: "+ wins;
     result+="Losses: "+ losses;
+    return result;
   }
 }
