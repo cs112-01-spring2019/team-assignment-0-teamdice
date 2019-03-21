@@ -10,7 +10,7 @@ public class Player{
     return playerName;
   }
   public void setPoints(int roll){
-    points+=roll;
+    points=roll;
   }
   public int getPoints(){
     return points;
