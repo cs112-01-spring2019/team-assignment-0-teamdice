@@ -21,5 +21,10 @@ public class Player{
   public won(){
     wins++;
   }
-  public toString()
+  public String toString(){
+    String result = "";
+    result+="Player: "+  name;
+    result+="Wins: "+ wins;
+    result+="Losses: "+ losses;
+  }
 }
