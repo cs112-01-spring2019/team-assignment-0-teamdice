@@ -29,7 +29,7 @@ public class Coin {
   }
   
   //So instead of this method, we need to make one called isHeads().  I think the best way would be to write it out like this:
-  // public boolean isHeads(), and then have it return true if sideUp == "heads" and false if sideUp != "heads"
+  // public boolean isHeads(), and then have it return true if sideUp == "Heads" and false if sideUp == "Tails"
   public String getSideUp() {
     return sideUp;
   }
