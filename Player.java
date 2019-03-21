@@ -9,16 +9,16 @@ public class Player{
   public String getName(){
     return playerName;
   }
-  public setPoints(int roll){
+  public void setPoints(int roll){
     points+=roll;
   }
   public int getPoints(){
     return points;
   }
-  public lost(){
+  public void lost(){
     losses++;
   }
-  public won(){
+  public void won(){
     wins++;
   }
   public String toString(){
