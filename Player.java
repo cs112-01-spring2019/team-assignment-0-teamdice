@@ -23,7 +23,7 @@ public class Player{
   }
   public String toString(){
     String result = "";
-    result+="Player: "+  name;
+    result+="Player: "+  playerName;
     result+="Wins: "+ wins;
     result+="Losses: "+ losses;
   }
