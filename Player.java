@@ -6,6 +6,9 @@ public class Player{
   public Player(String name){
     playerName = name;
   }
+  public String getName(){
+    return playerName;
+  }
   public setPoints(int roll){
     points+=roll;
   }
@@ -18,4 +21,5 @@ public class Player{
   public won(){
     wins++;
   }
+  public toString()
 }
