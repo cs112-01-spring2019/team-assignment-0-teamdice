@@ -1,0 +1,1 @@
+Vishu Sikka contributed to the Coin.java the and CoinTest.java classes.
